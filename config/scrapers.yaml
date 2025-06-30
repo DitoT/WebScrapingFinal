@@ -1,0 +1,17 @@
+
+scrapers:
+  - name: remoteok
+    type: static
+    limit: 10
+  - name: jobspresso
+    type: selenium
+    limit: 10
+  - name: remotive-selenium
+    type: selenium
+    limit: 10
+
+storage:
+  db_path: data_output/jobs.db
+  export_csv: data_output/jobs.csv
+  export_json: data_output/jobs.json
+  export_excel: data_output/jobs.xlsx
